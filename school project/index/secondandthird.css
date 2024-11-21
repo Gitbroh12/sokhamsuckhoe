@@ -1,0 +1,29 @@
+#board,
+#board-2 {
+  background-color: rgb(61, 160, 193);
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 375px;
+  margin: 0 auto; /* Remove default body margin */
+}
+body {
+  display: flex;
+  flex-direction: column; /* Các phần tử con luôn xuống hàng */
+  align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+  gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+#height,
+#weight {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#myForm {
+  display: none;
+}
